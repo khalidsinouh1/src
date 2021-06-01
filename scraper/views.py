@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-# Create your views here.
 def h1(request):
 	return render(request, 'home.html')
 
