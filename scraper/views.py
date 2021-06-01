@@ -2,7 +2,6 @@ from django.shortcuts import render
 from bs4 import BeautifulSoup
 import requests
 import json
-import numpy as np
 
 # Create your views here.
 def h1(request):
